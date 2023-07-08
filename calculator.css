@@ -1,1 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#main {
+  height: 100vh;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#container {
+  height: 85%;
+  width: 35%;
+  border-radius: 5%;
+  background-color: white;
+}
+#ans {
+  font-family: "Orbitron", sans-serif;
+  color: rgb(65, 43, 233);
+  border: 0;
+  width: 100%;
+  height: 65%;
+  background-color: rgb(198, 212, 234);
+  border-radius: 10px;
+  font-size: 35px;
+}
+#res {
+  font-family: "Orbitron", sans-serif;
+  color: rgb(65, 43, 233);
+  border: 0;
+  width: 100%;
+  height: 35%;
+  text-align: right;
+  background-color: rgb(198, 212, 234);
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 40px;
+}
+#answer {
+  height: 15%;
+  width: 90%;
+  border-radius: 10px;
+  position: relative;
+  top: 5%;
+  left: 5%;
+  background-color: rgb(198, 212, 234);
+}
+#part1 {
+  height: 15%;
+  width: 90%;
+  position: relative;
+  top: 5%;
+  left: 5%;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#part1 > input {
+  background-color: rgba(143, 175, 221, 0.951);
+  height: 70%;
+  width: 18%;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 37px;
+  color: blue;
+  border: 0;
+}
+#wrap {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  position: relative;
+  top: 3%;
+  left: 5%;
+}
+#part2 {
+  height: 95%;
+  width: 60%;
+  /* background-color: blue; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+#part2 > input {
+  background-color: rgba(180, 198, 224, 0.993);
+  height: 30%;
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 37px;
+  border: 0;
+  color: blue;
+}
 
+#part3 {
+  height: 95%;
+  width: 40%;
+  /* background-color: blue; */
+  display: flex;
+  padding-left: 7px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#part3 > input {
+  background-color: rgba(143, 175, 221, 0.951);
+  height: 29%;
+  width: 48%;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 37px;
+  color: blue;
+  border: 0;
+}
+#part4 {
+  height: 15%;
+  width: 90%;
+  position: relative;
+  /* top: 5%; */
+  left: 5%;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#part4 > input {
+  background-color: rgba(143, 175, 221, 0.951);
+  height: 70%;
+  width: 18%;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 37px;
+  color: blue;
+  border: 0;
+}
+input:hover {
+  transform: scale(1.1, 1.1);
+}
