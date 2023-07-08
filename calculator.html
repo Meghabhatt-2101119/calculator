@@ -1,1 +1,59 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="container">
+        <div id="answer">
+          <input type="text" id="ans" />
+          <input type="text" id="res" disabled />
+        </div>
+        <div id="part1">
+          <input type="button" value="(" name="(" />
+          <input type="button" value=")" name=")" />
+          <input type="button" value="ans" name="ans" />
+          <input type="button" value="del" name="del" />
+          <input type="button" value="clear" name="clear" />
+        </div>
+        <div id="wrap">
+          <div id="part2">
+            <input type="button" value="7" name="7" />
+            <input type="button" value="8" name="8" />
+            <input type="button" value="9" name="9" />
+            <input type="button" value="4" name="4" />
+            <input type="button" value="5" name="5" />
+            <input type="button" value="6" name="6" />
+            <input type="button" value="1" name="1" />
+            <input type="button" value="2" name="2" />
+            <input type="button" value="3" name="3" />
+          </div>
+          <div id="part3">
+            <input type="button" value="%" name="%" />
+            <input type="button" value="pow" name="**" />
+            <input type="button" value="x" name="*" />
+            <input type="button" value="/" name="/" />
+            <input type="button" value="+" name="+" />
+            <input type="button" value="-" name="-" />
+          </div>
+        </div>
+        <div id="part4">
+          <input type="button" value="." name="." />
+          <input type="button" value="0" name="0" />
+          <input type="button" value="+/-" name="+-" />
+          <input
+            type="button"
+            value="enter"
+            style="width: 38%; background-color: blue; color: white"
+            name="enter"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
